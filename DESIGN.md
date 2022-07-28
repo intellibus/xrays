@@ -49,7 +49,7 @@ The first is that dependent async function calls requires deeply nested code, ev
 
 The following scenario provides a great practical example:
 
-```md
+```text
 Scenario — Resource CRUD
 1. Make a Search API Call to Search for an Existing Resource
 2. Choose if we should Create a New Resource (Insert) or Update an Existing One (Update)

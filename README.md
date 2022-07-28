@@ -52,7 +52,7 @@ const { data, error } = await x(throwable, true);
 
 ## Documentation 🛰
 
-`xrays` *is under active development, documentation will be added once a initial release is ready*
+`xrays` *is under active development, documentation will be added once an initial release is ready.*
 
 ## Contributing 🌎
 
