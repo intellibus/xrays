@@ -31,8 +31,7 @@ npm install xrays
 
 ## Usage 🔭
 
-`xrays` *is under active development, the code sample below is a preview & is subject to change*
-Read more about the [Design Document](https://github.com/intellibus/xrays/blob/main/DESIGN.md) behind `xrays` here.
+Read more about the [Design](https://github.com/intellibus/xrays/blob/main/DESIGN.md) behind `xrays` here.
 
 ```typescript
 import { x } from 'xrays';
@@ -53,11 +52,15 @@ const { data, error } = await x(throwable, true);
 
 ## Documentation 🛰
 
-`xrays` *is under active development, documentation will be added once a* `beta` *release is ready*
+`xrays` *is under active development, documentation will be added once a initial release is ready*
 
 ## Contributing 🌎
 
-Please make sure to read the [Design Document](https://github.com/intellibus/xrays/blob/main/DESIGN.md) before making a pull request.
+We would love for you to contribute your ideas, code, & fixes to `xrays`.
+
+We encourage everyone to read our [Design Document](https://github.com/intellibus/xrays/blob/main/DESIGN.md) to learn more about the thought process behind xrays.
+
+Also check out [intellibus.dev/rewards](intellibus.dev/rewards) to learn more about the rewards offered for contributing to the [Open Source Universe](https://github.com/intellibus/approach).
 
 ## License ⚖️
 
