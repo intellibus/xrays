@@ -60,7 +60,7 @@ We would love for you to contribute your ideas, code, & fixes to `xrays`.
 
 We encourage everyone to read our [Design Document](https://github.com/intellibus/xrays/blob/main/DESIGN.md) to learn more about the thought process behind xrays.
 
-Also check out [intellibus.dev/rewards](intellibus.dev/rewards) to learn more about the rewards offered for contributing to the [Open Source Universe](https://github.com/intellibus/approach).
+Also check out the [rewards](https://github.com/intellibus/approach/blob/main/REWARDS.md) offered for contributing to the [Open Source Universe](https://github.com/intellibus/approach).
 
 ## License ⚖️
 
