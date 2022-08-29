@@ -18,7 +18,7 @@ specifiers:
   dotenv: 16.0.1
   esbuild: 0.15.5
   eslint: 8.23.0
-  eslint-config-intellibus: 1.0.56
+  eslint-config-intellibus: 1.0.57
   eslint-formatter-mo: 1.1.1
   esmock: 1.9.8
   glob: 8.0.3
@@ -47,12 +47,12 @@ devDependencies:
   '@types/glob': 7.2.0
   '@types/node': 18.6.1
   c8: 7.12.0
-  commitizen: 4.2.5_ts-node@10.9.1
-  cz-conventional-changelog: 3.3.0_ts-node@10.9.1
+  commitizen: 4.2.5
+  cz-conventional-changelog: 3.3.0
   dotenv: 16.0.1
   esbuild: 0.15.5
   eslint: 8.23.0
-  eslint-config-intellibus: 1.0.56_yqf6kl63nyoq5megxukfnom5rm
+  eslint-config-intellibus: 1.0.57_yqf6kl63nyoq5megxukfnom5rm
   eslint-formatter-mo: 1.1.1
   esmock: 1.9.8
   glob: 8.0.3
@@ -176,31 +176,10 @@ packages:
       '@commitlint/types': 17.0.0
     dev: true
 
-  /@commitlint/load/17.1.1_ts-node@10.9.1:
-    resolution: {integrity: sha512-jEgdDabfj58kFKZmB7rMtmQa7Feo7Ozh3KmvIlXWqrJmal5auO1RC0Iczfl52DlPn26Uo0goUDHrhoAFs2ze0Q==}
-    engines: {node: '>=v14'}
-    requiresBuild: true
-    peerDependencies:
-      ts-node: '>=10'
-    dependencies:
-      '@commitlint/config-validator': 17.1.0
-      '@commitlint/execute-rule': 17.0.0
-      '@commitlint/resolve-extends': 17.1.0
-      '@commitlint/types': 17.0.0
-      '@types/node': 14.18.26
-      chalk: 4.1.2
-      cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 3.1.2_sojisuq57pai4d4e47xjxa5i7a
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-      ts-node: 10.9.1_cr3pzbui3qv4oobzbnw6o6umpe
-      typescript: 4.8.2
-    dev: true
-    optional: true
-
   /@commitlint/load/17.1.2:
     resolution: {integrity: sha512-sk2p/jFYAWLChIfOIp/MGSIn/WzZ0vkc3afw+l4X8hGEYkvDe4gQUUAVxjl/6xMRn0HgnSLMZ04xXh5pkTsmgg==}
     engines: {node: '>=v14'}
+    requiresBuild: true
     dependencies:
       '@commitlint/config-validator': 17.1.0
       '@commitlint/execute-rule': 17.0.0
@@ -1344,28 +1323,7 @@ packages:
     hasBin: true
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0_ts-node@10.9.1
-      dedent: 0.7.0
-      detect-indent: 6.1.0
-      find-node-modules: 2.1.3
-      find-root: 1.1.0
-      fs-extra: 9.1.0
-      glob: 7.2.3
-      inquirer: 8.2.4
-      is-utf8: 0.2.1
-      lodash: 4.17.21
-      minimist: 1.2.6
-      strip-bom: 4.0.0
-      strip-json-comments: 3.1.1
-    dev: true
-
-  /commitizen/4.2.5_ts-node@10.9.1:
-    resolution: {integrity: sha512-9sXju8Qrz1B4Tw7kC5KhnvwYQN88qs2zbiB8oyMsnXZyJ24PPGiNM3nHr73d32dnE3i8VJEXddBFIbOgYSEXtQ==}
-    engines: {node: '>= 12'}
-    hasBin: true
-    dependencies:
-      cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0_ts-node@10.9.1
+      cz-conventional-changelog: 3.3.0
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -1379,7 +1337,8 @@ packages:
       strip-bom: 4.0.0
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
-      - ts-node
+      - '@swc/core'
+      - '@swc/wasm'
     dev: true
 
   /compare-func/2.0.0:
@@ -1465,22 +1424,6 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /cosmiconfig-typescript-loader/3.1.2_sojisuq57pai4d4e47xjxa5i7a:
-    resolution: {integrity: sha512-rIwakk27LtK7vjSjGgs3FDbKkq41Byw3VHRGRuAkRQLfGla+O7s+cy1FXRkjLSZ2G9z1og1bcOIsELo1w4G0Kg==}
-    engines: {node: '>=12', npm: '>=6'}
-    peerDependencies:
-      '@types/node': '*'
-      cosmiconfig: '>=7'
-      ts-node: '>=10'
-      typescript: '>=3'
-    dependencies:
-      '@types/node': 14.18.26
-      cosmiconfig: 7.0.1
-      ts-node: 10.9.1_cr3pzbui3qv4oobzbnw6o6umpe
-      typescript: 4.8.2
-    dev: true
-    optional: true
-
   /cosmiconfig-typescript-loader/4.0.0_sojisuq57pai4d4e47xjxa5i7a:
     resolution: {integrity: sha512-cVpucSc2Tf+VPwCCR7SZzmQTQkPbkk4O01yXsYqXBIbjE1bhwqSyAgYQkRK1un4i0OPziTleqFhdkmOc4RQ/9g==}
     engines: {node: '>=12', npm: '>=6'}
@@ -1536,7 +1479,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /cz-conventional-changelog/3.3.0_ts-node@10.9.1:
+  /cz-conventional-changelog/3.3.0:
     resolution: {integrity: sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==}
     engines: {node: '>= 10'}
     dependencies:
@@ -1547,9 +1490,10 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 17.1.1_ts-node@10.9.1
+      '@commitlint/load': 17.1.2
     transitivePeerDependencies:
-      - ts-node
+      - '@swc/core'
+      - '@swc/wasm'
     dev: true
 
   /dargs/7.0.0:
@@ -2060,8 +2004,8 @@ packages:
       eslint-plugin-import: 2.26.0_wuwkxwrbse6tpsswisrjs4hlki
     dev: true
 
-  /eslint-config-intellibus/1.0.56_yqf6kl63nyoq5megxukfnom5rm:
-    resolution: {integrity: sha512-hrh3UyYjvWvfWRuVCaqSeyQx1YaDZXIaxTFOrGgQO3T3PFqRm1bEyq6d2N/nwh8lXvS9+Q28kY9oZydR3fGnMA==}
+  /eslint-config-intellibus/1.0.57_yqf6kl63nyoq5megxukfnom5rm:
+    resolution: {integrity: sha512-SHC297NMXSLC5wdCbTS0ajWfrH526iOHAIvb4Bdylj1ZsRLBTzgGR8+scuUI/MVbB/jRCV/ecj1+NGKphuYItw==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
