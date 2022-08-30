@@ -10,7 +10,7 @@ specifiers:
   '@semantic-release/npm': 9.0.1
   '@semantic-release/release-notes-generator': 10.0.3
   '@tsconfig/node16': 1.0.3
-  '@types/glob': 7.2.0
+  '@types/glob': 8.0.0
   '@types/node': 18.6.1
   c8: 7.12.0
   commitizen: 4.2.5
@@ -44,7 +44,7 @@ devDependencies:
   '@semantic-release/npm': 9.0.1_semantic-release@19.0.5
   '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
   '@tsconfig/node16': 1.0.3
-  '@types/glob': 7.2.0
+  '@types/glob': 8.0.0
   '@types/node': 18.6.1
   c8: 7.12.0
   commitizen: 4.2.5
@@ -639,8 +639,8 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
-  /@types/glob/7.2.0:
-    resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
+  /@types/glob/8.0.0:
+    resolution: {integrity: sha512-l6NQsDDyQUVeoTynNpC9uRvCUint/gSUXQA2euwmTuWGvPY5LSDUu6tkCtJB2SvGQlJQzLaKqcGZP4//7EDveA==}
     dependencies:
       '@types/minimatch': 5.1.0
       '@types/node': 18.6.1
