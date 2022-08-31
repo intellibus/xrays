@@ -19,7 +19,7 @@ specifiers:
   esbuild: 0.15.6
   eslint: 8.23.0
   eslint-config-intellibus: 1.0.58
-  eslint-formatter-mo: 1.1.1
+  eslint-formatter-mo: 1.2.0
   esmock: 1.9.8
   glob: 8.0.3
   husky: 8.0.1
@@ -53,7 +53,7 @@ devDependencies:
   esbuild: 0.15.6
   eslint: 8.23.0
   eslint-config-intellibus: 1.0.58_yqf6kl63nyoq5megxukfnom5rm
-  eslint-formatter-mo: 1.1.1
+  eslint-formatter-mo: 1.2.0
   esmock: 1.9.8
   glob: 8.0.3
   husky: 8.0.1
@@ -2055,8 +2055,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-formatter-mo/1.1.1:
-    resolution: {integrity: sha512-fQyfIqs9r43+T83azjFraww1OqeaLBuihm336VbmpI+hKQCAWEnR9LYleCIB1XIY4xyXNzgI+G7v9opYedU+jg==}
+  /eslint-formatter-mo/1.2.0:
+    resolution: {integrity: sha512-j/1oWwwIZWlpziMlPGmP2ZA/9LmcDzKcSHx0q9hqnOxAYy42NAoGD0YErU27crRX+sp64w+PfAd57YoxTtjvAQ==}
     dependencies:
       chalk: 3.0.0
       emphasize: 4.2.0
