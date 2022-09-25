@@ -20,7 +20,7 @@ specifiers:
   eslint: 8.24.0
   eslint-config-intellibus: 1.0.69
   eslint-formatter-mo: 1.2.0
-  esmock: 2.0.2
+  esmock: 2.0.3
   glob: 8.0.3
   husky: 8.0.1
   lint-staged: 13.0.3
@@ -54,7 +54,7 @@ devDependencies:
   eslint: 8.24.0
   eslint-config-intellibus: 1.0.69_7ilbxdl5iguzcjriqqcg2m5cku
   eslint-formatter-mo: 1.2.0
-  esmock: 2.0.2
+  esmock: 2.0.3
   glob: 8.0.3
   husky: 8.0.1
   lint-staged: 13.0.3
@@ -2307,11 +2307,11 @@ packages:
       - supports-color
     dev: true
 
-  /esmock/2.0.2:
-    resolution: {integrity: sha512-ldxeQjYRxlKcwCfSG3g51vbnu3CZu+f0AgIXTiGTnzlhKZ58aBJbVfOikqhBsGXE73QCnc0yivRD9XcIg7LFYg==}
+  /esmock/2.0.3:
+    resolution: {integrity: sha512-csMZ0cZjZyyAKzxQbE4FKLVHle8gr3apOu1IWi3zC96VO1Ft6Mcug+JoPybiASj50brtPe1JK29rHJYqvymB8g==}
     engines: {node: '>=14.16.0'}
     dependencies:
-      resolvewithplus: 1.0.1
+      resolvewithplus: 1.0.2
     dev: true
 
   /espree/9.4.0:
@@ -4294,8 +4294,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /resolvewithplus/1.0.1:
-    resolution: {integrity: sha512-77YwamPyBQuU8DqiXaGzFe2mF0ERS6hYf4rkHwYY4w+MNxdLPbvjnebTX/gcynmUNI1UsS8EdQuVicgoe8IpOQ==}
+  /resolvewithplus/1.0.2:
+    resolution: {integrity: sha512-UNvTSqWpe1lhKvXb+Qo97Q/dFUtA0kDuUG/gO7S+P9H/xYZ+A9pwlAbY6Dqp2tgAeQNdHmQG5MdNL6d9/FWo6Q==}
     engines: {node: '>=12.16.0'}
     dev: true
 
