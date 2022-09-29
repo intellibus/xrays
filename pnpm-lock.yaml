@@ -15,7 +15,7 @@ specifiers:
   c8: 7.12.0
   commitizen: 4.2.5
   cz-conventional-changelog: 3.3.0
-  dotenv: 16.0.2
+  dotenv: 16.0.3
   esbuild: 0.15.9
   eslint: 8.24.0
   eslint-config-intellibus: 1.0.71
@@ -49,7 +49,7 @@ devDependencies:
   c8: 7.12.0
   commitizen: 4.2.5
   cz-conventional-changelog: 3.3.0
-  dotenv: 16.0.2
+  dotenv: 16.0.3
   esbuild: 0.15.9
   eslint: 8.24.0
   eslint-config-intellibus: 1.0.71_ypn2ylkkyfa5i233caldtndbqa
@@ -1662,8 +1662,8 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dotenv/16.0.2:
-    resolution: {integrity: sha512-JvpYKUmzQhYoIFgK2MOnF3bciIZoItIIoryihy0rIA+H4Jy0FmgyKYAHCTN98P5ybGSJcIFbh6QKeJdtZd1qhA==}
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
     dev: true
 
