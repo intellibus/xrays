@@ -51,7 +51,7 @@
     "dotenv": "16.0.3",
     "esbuild": "0.15.12",
     "eslint": "8.26.0",
-    "eslint-config-intellibus": "1.0.86",
+    "eslint-config-intellibus": "1.0.87",
     "eslint-formatter-mo": "1.2.0",
     "esmock": "2.0.6",
     "glob": "8.0.3",
