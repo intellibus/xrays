@@ -20,7 +20,7 @@ specifiers:
   eslint: 8.28.0
   eslint-config-intellibus: 1.0.114
   eslint-formatter-mo: 1.2.0
-  esmock: 2.0.9
+  esmock: 2.1.0
   glob: 8.0.3
   husky: 8.0.2
   lint-staged: 13.0.4
@@ -54,7 +54,7 @@ devDependencies:
   eslint: 8.28.0
   eslint-config-intellibus: 1.0.114_zksrc6ykdxhogxjbhb5axiabwi
   eslint-formatter-mo: 1.2.0
-  esmock: 2.0.9
+  esmock: 2.1.0
   glob: 8.0.3
   husky: 8.0.2
   lint-staged: 13.0.4
@@ -2323,8 +2323,8 @@ packages:
       - supports-color
     dev: true
 
-  /esmock/2.0.9:
-    resolution: {integrity: sha512-DowbbH79/YIvYc0tBPumq4XThIyFA1tcmGnHZJM3j3mcDFqCSbtS/jn6SqNG5bBcHUBAUVJ6z0l0q1uizkUd2A==}
+  /esmock/2.1.0:
+    resolution: {integrity: sha512-8/2+iFfcB5FMJDBWXmXCY/4GSaI8sMCWUmq2laroQc3y9AI53QMm5Ew25DkW9FMaM8dBH8hmvOr2l3qChJ2JgA==}
     engines: {node: '>=14.16.0'}
     dev: true
 
