@@ -18,7 +18,7 @@ specifiers:
   dotenv: 16.0.3
   esbuild: 0.16.4
   eslint: 8.29.0
-  eslint-config-intellibus: 1.0.129
+  eslint-config-intellibus: 1.0.130
   eslint-formatter-mo: 1.2.0
   esmock: 2.1.0
   glob: 8.0.3
@@ -52,7 +52,7 @@ devDependencies:
   dotenv: 16.0.3
   esbuild: 0.16.4
   eslint: 8.29.0
-  eslint-config-intellibus: 1.0.129_6rep66rojmwsn4bfraotajskeu
+  eslint-config-intellibus: 1.0.130_6rep66rojmwsn4bfraotajskeu
   eslint-formatter-mo: 1.2.0
   esmock: 2.1.0
   glob: 8.0.3
@@ -2029,8 +2029,8 @@ packages:
       eslint-plugin-import: 2.26.0_jmo6lrruppojz26veozmvboili
     dev: true
 
-  /eslint-config-intellibus/1.0.129_6rep66rojmwsn4bfraotajskeu:
-    resolution: {integrity: sha512-NpSr2MB5ndf4KED6DpfI5a/WHaCXucKjKDlbyBpFXBDsWrtQk8HOx03DPFCDmrlwl1iMclEQ/8jw+n5/3hCTkw==}
+  /eslint-config-intellibus/1.0.130_6rep66rojmwsn4bfraotajskeu:
+    resolution: {integrity: sha512-ABBhX9kxzZGfvYLPjIg0eNZ1dAYCHRRrObB5Z7tl2TVwEbesqkAI/+gOlAlDpXG2S2CH/kTaGYE7kQ+bv47VNg==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
