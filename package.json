@@ -44,7 +44,7 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "@tsconfig/node16": "1.0.3",
     "@types/glob": "8.0.0",
-    "@types/node": "18.6.1",
+    "@types/node": "18.11.18",
     "c8": "7.12.0",
     "commitizen": "4.2.6",
     "cz-conventional-changelog": "3.3.0",
