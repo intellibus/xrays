@@ -43,7 +43,7 @@
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@tsconfig/node16": "1.0.3",
-    "@types/glob": "8.0.1",
+    "@types/glob": "8.1.0",
     "@types/node": "18.6.1",
     "c8": "7.13.0",
     "commitizen": "4.3.0",
