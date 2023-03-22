@@ -21,7 +21,7 @@ specifiers:
   eslint-config-intellibus: 1.0.155
   eslint-formatter-mo: 1.2.0
   esmock: 2.1.0
-  glob: 9.3.1
+  glob: 9.3.2
   husky: 8.0.3
   lint-staged: 13.2.0
   npm-run-all: 4.1.5
@@ -55,7 +55,7 @@ devDependencies:
   eslint-config-intellibus: 1.0.155_oetr3kuzbjncgm24ninkrag7ya
   eslint-formatter-mo: 1.2.0
   esmock: 2.1.0
-  glob: 9.3.1
+  glob: 9.3.2
   husky: 8.0.3
   lint-staged: 13.2.0
   npm-run-all: 4.1.5
@@ -179,31 +179,6 @@ packages:
       '@commitlint/rules': 17.4.4
       '@commitlint/types': 17.4.4
     dev: true
-
-  /@commitlint/load/17.4.4:
-    resolution: {integrity: sha512-z6uFIQ7wfKX5FGBe1AkOF4l/ShOQsaa1ml/nLMkbW7R/xF8galGS7Zh0yHvzVp/srtfS0brC+0bUfQfmpMPFVQ==}
-    engines: {node: '>=v14'}
-    requiresBuild: true
-    dependencies:
-      '@commitlint/config-validator': 17.4.4
-      '@commitlint/execute-rule': 17.4.0
-      '@commitlint/resolve-extends': 17.4.4
-      '@commitlint/types': 17.4.4
-      '@types/node': 18.6.1
-      chalk: 4.1.2
-      cosmiconfig: 8.1.3
-      cosmiconfig-typescript-loader: 4.3.0_7wvhqnfp53745ak63s4fctgdra
-      lodash.isplainobject: 4.0.6
-      lodash.merge: 4.6.2
-      lodash.uniq: 4.5.0
-      resolve-from: 5.0.0
-      ts-node: 10.9.1_t6iukbiom2jlsbp4uv3roalcz4
-      typescript: 4.8.4
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-    dev: true
-    optional: true
 
   /@commitlint/load/17.5.0:
     resolution: {integrity: sha512-l+4W8Sx4CD5rYFsrhHH8HP01/8jEP7kKf33Xlx2Uk2out/UKoKPYMOIRcDH5ppT8UXLMV+x6Wm5osdRKKgaD1Q==}
@@ -1813,7 +1788,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 17.4.4
+      '@commitlint/load': 17.5.0
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -2887,8 +2862,8 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /glob/9.3.1:
-    resolution: {integrity: sha512-qERvJb7IGsnkx6YYmaaGvDpf77c951hICMdWaFXyH3PlVob8sbPJJyJX0kWkiCWyXUzoy9UOTNjGg0RbD8bYIw==}
+  /glob/9.3.2:
+    resolution: {integrity: sha512-BTv/JhKXFEHsErMte/AnfiSv8yYOLLiyH2lTg8vn02O21zWFgHPTfxtgn1QRe7NRgggUhC8hacR2Re94svHqeA==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       fs.realpath: 1.0.0
