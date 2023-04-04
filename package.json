@@ -53,7 +53,7 @@
     "eslint": "8.37.0",
     "eslint-config-intellibus": "1.0.155",
     "eslint-formatter-mo": "1.2.0",
-    "esmock": "2.2.0",
+    "esmock": "2.2.1",
     "glob": "9.3.4",
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
