@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "xrays",
-  "version": "1.0.266",
+  "version": "1.0.267",
   "description": "Catch Errors before they become Fatal",
   "author": "Intellibus Labs <labs@intellibus.com> (https://intellibus.dev/)",
   "license": "MIT",
