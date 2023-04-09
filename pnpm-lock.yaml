@@ -62,8 +62,8 @@ devDependencies:
     specifier: 2.2.1
     version: 2.2.1
   glob:
-    specifier: 9.3.4
-    version: 9.3.4
+    specifier: 9.3.5
+    version: 9.3.5
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -2836,8 +2836,8 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /glob@9.3.4:
-    resolution: {integrity: sha512-qaSc49hojMOv1EPM4EuyITjDSgSKI0rthoHnvE81tcOi1SCVndHko7auqxdQ14eiQG2NDBJBE86+2xIrbIvrbA==}
+  /glob@9.3.5:
+    resolution: {integrity: sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       fs.realpath: 1.0.0
