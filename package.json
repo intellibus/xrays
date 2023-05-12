@@ -42,7 +42,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "10.0.3",
     "@semantic-release/release-notes-generator": "11.0.1",
-    "@tsconfig/node16": "1.0.3",
+    "@tsconfig/node16": "1.0.4",
     "@types/glob": "8.1.0",
     "@types/node": "18.6.1",
     "c8": "7.13.0",
