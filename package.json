@@ -48,7 +48,7 @@
     "c8": "8.0.0",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "dotenv": "16.1.4",
+    "dotenv": "16.2.0",
     "esbuild": "0.18.3",
     "eslint": "8.42.0",
     "eslint-config-intellibus": "1.0.155",
