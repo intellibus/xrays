@@ -27,8 +27,8 @@ devDependencies:
     specifier: 10.0.4
     version: 10.0.4(semantic-release@21.0.6)
   '@semantic-release/release-notes-generator':
-    specifier: 11.0.3
-    version: 11.0.3(semantic-release@21.0.6)
+    specifier: 11.0.4
+    version: 11.0.4(semantic-release@21.0.6)
   '@tsconfig/node16':
     specifier: 16.1.0
     version: 16.1.0
@@ -891,8 +891,8 @@ packages:
       tempy: 3.0.0
     dev: true
 
-  /@semantic-release/release-notes-generator@11.0.3(semantic-release@21.0.6):
-    resolution: {integrity: sha512-NU77dWKQf+QcZrv/Hcp3DPeSxglPu8hYKCipGxAPpeaneLkg6S0zfTVug4tg4mfDhZHC6RtoI7ljQDK8VoJ2Dw==}
+  /@semantic-release/release-notes-generator@11.0.4(semantic-release@21.0.6):
+    resolution: {integrity: sha512-j0Znnwq9IdWTCGzqSlkLv4MpALTsVDZxcVESzJCNN8pK2BYQlYaKsdZ1Ea/+7RlppI3vjhEi33ZKmjSGY1FLKw==}
     engines: {node: '>=18'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -906,7 +906,7 @@ packages:
       import-from: 4.0.0
       into-stream: 7.0.0
       lodash-es: 4.17.21
-      read-pkg-up: 9.1.0
+      read-pkg-up: 10.0.0
       semantic-release: 21.0.6
     transitivePeerDependencies:
       - supports-color
@@ -4534,6 +4534,15 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
+  /read-pkg-up@10.0.0:
+    resolution: {integrity: sha512-jgmKiS//w2Zs+YbX039CorlkOp8FIVbSAN8r8GJHDsGlmNPXo+VeHkqAwCiQVTTx5/LwLZTcEw59z3DvcLbr0g==}
+    engines: {node: '>=16'}
+    dependencies:
+      find-up: 6.3.0
+      read-pkg: 8.0.0
+      type-fest: 3.12.0
+    dev: true
+
   /read-pkg-up@7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
     engines: {node: '>=8'}
@@ -4779,7 +4788,7 @@ packages:
       '@semantic-release/error': 4.0.0
       '@semantic-release/github': 9.0.3(semantic-release@21.0.6)
       '@semantic-release/npm': 10.0.4(semantic-release@21.0.6)
-      '@semantic-release/release-notes-generator': 11.0.3(semantic-release@21.0.6)
+      '@semantic-release/release-notes-generator': 11.0.4(semantic-release@21.0.6)
       aggregate-error: 4.0.1
       cosmiconfig: 8.2.0
       debug: 4.3.4
