@@ -63,8 +63,8 @@ devDependencies:
     specifier: 1.2.0
     version: 1.2.0
   esmock:
-    specifier: 2.3.4
-    version: 2.3.4
+    specifier: 2.3.5
+    version: 2.3.5
   glob:
     specifier: 9.3.5
     version: 9.3.5
@@ -2470,8 +2470,8 @@ packages:
       - supports-color
     dev: true
 
-  /esmock@2.3.4:
-    resolution: {integrity: sha512-KcgTjZ2fMNC28j6b+vbZee3eLuCSbZ5N6fOr+I0ZYo9nIZCD7T7If+EF9cc6twxQuN3Ejbl34mCfKZWjIueFIQ==}
+  /esmock@2.3.5:
+    resolution: {integrity: sha512-/Tt1goSUzBI3yKecJSgxBSoMMhGUtlhHA3PluCmdG/L6CRpzV8LmyGkStkdGcRdfHOzfDsqQioGcCFAdK11ZnA==}
     engines: {node: '>=14.16.0'}
     dev: true
 
