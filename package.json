@@ -50,7 +50,7 @@
     "cz-conventional-changelog": "3.3.0",
     "dotenv": "16.3.1",
     "esbuild": "0.19.2",
-    "eslint": "8.48.0",
+    "eslint": "8.56.0",
     "eslint-config-intellibus": "1.0.155",
     "eslint-formatter-mo": "1.2.0",
     "esmock": "2.3.8",
